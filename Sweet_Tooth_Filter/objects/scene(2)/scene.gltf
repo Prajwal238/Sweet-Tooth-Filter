@@ -1,0 +1,272 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9304,
+      "max": [
+        74.51956176757813,
+        62.99871826171875,
+        21.42719268798828
+      ],
+      "min": [
+        -74.51956176757813,
+        -1.9073486328125e-06,
+        -21.428993225097656
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 111648,
+      "componentType": 5126,
+      "count": 9304,
+      "max": [
+        0.9996294975280762,
+        0.9979085326194763,
+        0.9997972249984741
+      ],
+      "min": [
+        -0.9996294975280762,
+        -0.9998520016670227,
+        -0.9982060790061951
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9304,
+      "max": [
+        0.9815347194671631,
+        0.9879581332206726
+      ],
+      "min": [
+        0.012172460556030273,
+        0.01384800672531128
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 74432,
+      "componentType": 5126,
+      "count": 9304,
+      "max": [
+        0.9815347194671631,
+        0.9879581332206726
+      ],
+      "min": [
+        0.012172460556030273,
+        0.01384800672531128
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 148864,
+      "componentType": 5126,
+      "count": 9304,
+      "max": [
+        0.9815347194671631,
+        0.9879581332206726
+      ],
+      "min": [
+        0.012172460556030273,
+        0.01384800672531128
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 53172,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "chadathip_9 (https://sketchfab.com/chadathip_9)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cat-ears-6960f5f2d76c440f95f89e053f1175c8",
+      "title": "Cat Ears"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 212688,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 223296,
+      "byteOffset": 212688,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 223296,
+      "byteOffset": 435984,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 659280,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.8,
+            0.8,
+            0.8,
+            1.0
+          ],
+          "glossinessFactor": 0.188235,
+          "specularFactor": [
+            0.498039,
+            0.498039,
+            0.498039
+          ]
+        }
+      },
+      "name": "material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TEXCOORD_2": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "root_1"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.0019778809510171413,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019778809510171413,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019778809510171413,
+        0.0,
+        0.005565478000789881,
+        -0.07013733685016632,
+        0.28723224997520447,
+        1.0
+      ],
+      "name": "mesh_id30_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_5"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
